@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Actividad 18 — Arte Fractal (Sierpinski + Mandelbrot)</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- p5.js por CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>🎨✨ Arte Fractal — Sierpinski + Mandelbrot</h1>
+    <div class="controls">
+      <button id="btnSierpinski" title="Fractal geométrico 2D">Triángulo de Sierpinski (1)</button>
+      <button id="btnMandelbrot" title="Plano complejo">Conjunto de Mandelbrot (2)</button>
+      <button id="btnReset">Reiniciar vista (R)</button>
+      <button id="btnColor">Cambiar paleta (Clic)</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="canvas-holder" aria-label="Lienzo p5.js para fractales"></div>
+    <aside class="help">
+      <h2>Controles</h2>
+      <p><strong>1</strong> Sierpinski · <strong>2</strong> Mandelbrot</p>
+      <p><strong>W / S</strong> Profundidad Sierpinski</p>
+      <p><strong>Rueda</strong> Zoom (Mandelbrot) · <strong>Arrastrar</strong> mover</p>
+      <p><strong>Click</strong> Cambiar paleta · <strong>R</strong> Reinicia vista</p>
+    </aside>
+  </main>
+
+  <footer>
+    <small>Actividad 18 – PWD 7° 2° B. Interactividad y personalización según consigna. </small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
